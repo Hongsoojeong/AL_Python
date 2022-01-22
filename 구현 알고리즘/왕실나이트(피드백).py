@@ -2,7 +2,6 @@ coor=input() #좌표
 row=int(coor[1]) 
 col=int(ord(coor[0]))-int(ord('a'))+1 
 #a:1, b:2 ...
-print(col)
 steps=[(-2,-1),(-1,-2),(1,-2),(2,-1),(2,1),(1,2),(-1,2),(-2,1)]
 ct=0
 for step in steps:
